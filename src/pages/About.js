@@ -1,11 +1,9 @@
+import React from 'react';
+import AboutComp from '../components/AboutComp';
+import HomeTrial from '../components/HomeTrial';
+
 const About = () => {
-  const serviceStyle = {
-    background: '#F59E0D',
-    padding: '5px',
-    width:'100px',
-
-  }
-
+  
     return(
       <>
       <div className="container mx-auto items-center py-7 bg-slate-600 ">
@@ -35,25 +33,12 @@ const About = () => {
            </div>
        </div>
      </div>
-
-     <div className="text-center">
-     <h2 className="text-center text-2xl font-bold">Why people love Us</h2>
-
-
-     <div className="container mx-auto flex items-center justify-between">
-           <div className="w-1/2 px-9">
-           <img src="/images/jewel.webp" alt="style" className="mx-auto rounded-full " style={serviceStyle} />
-           <h2 className="py-5 text-lg font-semibold">Style</h2>
-           <p>We always maintain modern styles and follow your feedback.</p>
-           </div>
-           
-           <div className="w-1/2 px-9">
-            <img src="/images/service.webp" alt="service" className="mx-auto rounded-full " style={serviceStyle} />
-            <h2 className="py-5 text-lg font-semibold">Service</h2>
-            <p>Give 24*7 Service online and offline and provide home service also.</p>
-           </div>
+     <div className="pb-24 pt-24">
+           <HomeTrial />
        </div>
-       </div>
+ 
+      <AboutComp />
+     
       </>
     )
   }

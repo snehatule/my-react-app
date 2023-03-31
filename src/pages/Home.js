@@ -1,4 +1,6 @@
-import Products from '../pages/Products';
+// import Products from '../pages/Products';
+import AboutComp from '../components/AboutComp';
+import HomeTrial from '../components/HomeTrial';
 
 const Home = () => {
   return(
@@ -24,8 +26,12 @@ const Home = () => {
           </div>
        </div>
 
-       <div className="pb-24">
-           <Products />
+       <div className="pb-24 pt-24">
+           <HomeTrial />
+       </div>
+
+       <div className="pb-24 pt-24">
+           <AboutComp />
        </div>
        </>
 
