@@ -1,6 +1,7 @@
 // import Products from '../pages/Products';
 import AboutComp from '../components/AboutComp';
 import HomeTrial from '../components/HomeTrial';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return(
@@ -32,6 +33,9 @@ const Home = () => {
 
        <div className="pb-24 pt-24">
            <AboutComp />
+       </div>
+       <div className="pt-24">
+        <Footer />
        </div>
        </>
 

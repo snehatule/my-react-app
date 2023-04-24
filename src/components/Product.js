@@ -1,16 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Product = () => {
   const allProducts = {
     "products": [
-        {
-            "id": 7761580097791,
-            "title": "Choker with Triangle",
-            "body_html": "<p>Black choker with silver triangle pendant.</p>",
-            "vendor": "Sterling Ltd",
-            "price": 3000,
-            "src": "https://cdn.shopify.com/s/files/1/0656/0586/1631/products/choker-with-triangle_925x_a23f2d0f-c705-4ede-af5d-61cd16325bca.jpg?v=1660800528",
-        },
+        
         {
           "id": 7761580196095,
           "title": "Dreamcatcher Pendant Necklace",
@@ -43,6 +36,14 @@ const Product = () => {
           "price": 5000,
           "src": "https://cdn.shopify.com/s/files/1/0656/0586/1631/products/gold-bird-necklace_925x_2185a50a-1da9-4e6c-97c1-fb4ab9db375c.jpg?v=1660800539",
          },
+         {
+          "id": 7761580097791,
+          "title": "Choker with Triangle",
+          "body_html": "<p>Black choker with silver triangle pendant.</p>",
+          "vendor": "Sterling Ltd",
+          "price": 3000,
+          "src": "https://cdn.shopify.com/s/files/1/0656/0586/1631/products/choker-with-triangle_925x_a23f2d0f-c705-4ede-af5d-61cd16325bca.jpg?v=1660800528",
+      },
          {
           "id": 7761580294399,
           "title": "Gemstone Necklace",
